@@ -1,0 +1,26 @@
+{
+    "name": "dell/phpiggy",
+    "description": "A PHP application for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bilal"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        },
+        "files" :[
+            "src/App/Config/Routes.php",
+            "src/App/Config/Middleware.php"
+        ]
+    },
+    "scripts":{
+        "phpiggy": "php cli.php"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
