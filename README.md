@@ -1,2 +1,2 @@
 # phpiggy
- A PHP application for tracking expenses
+ A PHP application with custom php framework for tracking expenses
